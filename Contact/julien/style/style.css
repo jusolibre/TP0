@@ -1,0 +1,38 @@
+body {
+  background-color: #5191FF;
+}
+p {
+  text-align: center;
+}
+#full {
+  border: 1px solid black;
+  height: 100%;
+  width: auto;
+}
+#new_a {
+  target="_blank";
+  text-align="right";
+}
+#right {
+  border: 1px solid black;
+  float: right;
+  background-color: #4580FF;
+  text-align: center;
+  line-height: 50px;
+  width: 20%;
+  height: 100%;
+}
+#left {
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+  width: 20%;
+  height: 100%;
+}
+#inner {
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 20%;
+  width: 60%;
+  height: 100%;
+}

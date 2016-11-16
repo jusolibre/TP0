@@ -1,0 +1,84 @@
+<!--
+@Author: Julien SOBRITZ <sobrit_j>
+@Date:   2016-11-14T19:58:54+01:00
+@Email:  julien.s@codeur.online
+@Filename: a.html
+@Last modified by:   sobrit_j
+@Last modified time: 2016-11-15T14:14:31+01:00
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>a</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="input.html">Input</a></li>
+        <li><a href="text-area.html">Text area</a></li>
+        <li><a href="select.html">Select</a></li>
+        <li><a href="meta.html">Meta</a></li>
+        <li><a href="link.html">Link</a></li>
+        <li><a href="div.html">Div</a></li>
+        <li><a href="table-tr-td.html">Table tr td</a></li>
+        <li><a href="img.html">Img</a></li>
+        <li>a</li>
+        <li><a href="h123.html">h1 h2 h3 ...</a></li>
+        <li><a href="comment.html">comment</a></li>
+        <li><a href="form.html">form</a></li>
+        <li><a href="body.html">body</a></li>
+        <li><a href="html.html">html</a></li>
+        <li><a href="title.html">title</a></li>
+        <li><a href="b-i-u-pre.html">b i u pre</a></li>
+        <li><a href="p-ul-li-br-hr.html">p ul li br hr</a></li>
+      </ul>
+    </nav>
+      <h1>A :</h1>
+      <p>
+        Définition : en html un lien est défini par une balise
+        <strong>
+          <code data-claire-semantic="html">
+            &lt;;a href="valeur"&gt; texte du lien&lt;;/a&gt;
+          </code>
+        </strong>
+        afin de permettre en place un lien, vers une autre page ou une autre section de la page.
+      </p><br/>
+      <h2>Attributs :</h2>
+      <p>
+        L'attribut <strong>href</strong> specifie l'adresse de destination.<br/><br/>
+        Le texte entre les deux balise spécifie le texte représentant le lien.<br/><br/>
+        L'attribut <strong>target</strong> peut avoir plusieur valeures a savoir :<br/>
+        <strong>_blank</strong> qui ouvre le lien dans un nouvel onglet,<br/>
+        <strong>_self</strong> qui ouvre le lien dans la même fenêtre, le même onglet,<br/>
+        <strong>_parent</strong> qui ouvre le lien dans la fenetre parente<br/>
+        <strong>_top</strong> qui ouvre le lient dans le corp de la fenetre,<br/>
+        et enfin <strong>framename</strong> qui ouvre le lien dans une fenetre nommé.<br/>
+        Bien qu'essentiellement fait a partir de texte, un lien peut aussi etre fait a partir d'une image.<br/>
+        L'utilisation d'un lien se réfèrent a la meme page permet de creer des "marques pages" qui permettent de se rendre directement a un point précis de la page.<br/>
+      </p>
+      <br/><h2>Exemples :</h2><br/>
+      <strong>Lien externe :</strong><br/>
+      <code data-claire-semantic="html">&lt;;a href="nom de la page.html"&gt; texte de lien&lt;;/a&gt;</code><br/>
+      De cette manière, je redirige l'utilisateur vers une autre page.<br/><br/>
+      <strong id="marque-page">Bookmark :</strong><br/>
+      <code data-claire-semantic="html">&lt;h1 id="titre1"&gt; Mon Titre Principal &lt;/h1&gt;</code><br/>
+      Ici je crée un marque page nommé titre 1.<br/>
+      en utilisant ce morceau de code :<br/>
+      <code data-claire-semantic="html">&lt;a href="#tips"&gt; Texte De Lien &lt;/a&gt;</code><br/>
+      Un clic nous mènera directement au titre.<br/><br/>
+      De la meme manière on peut rediriger vers une id d'une autre page en combinant les deux derniers exemples.
+  </body>
+
+  <footer>
+    <br/><br/>
+    <a href="Contact\perso-vincentimes.html">Contact VincenTimes</a><br/>
+    <a href="Contact\julien\index.html">Contact Julien GRIMM</a><br/>
+    <a href="Contact\danti-kevin.html">Contact Kevin DANTI</a><br/>
+    <a href="Contact\thomas-martin.html">Contact Thomas MARTIN</a><br/>
+  </footer>
+</html>
