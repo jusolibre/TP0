@@ -1,9 +1,12 @@
 body {
     background-image: url(../image/fond.png);
     background-attachment: fixed;
+    text-align: center;
+    color: #f9d6a4;
+    font-size: 1.2em;
      }
 
-h1 {
+h1, h2, h3 {
     color: white;
     text-align: center;
     font-family: courier;
@@ -47,9 +50,13 @@ li a:hover:not(.active) {
  text-align: center;
 }
 
-#txt
+#actu
 {
   text-align: center;
-  color: #f9d6a4;
+  color: #004d99;
   font-size: 1.2em;
+}
+footer
+{
+  background-image: url(../image/footer.png);
 }
