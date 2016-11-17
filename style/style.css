@@ -1,14 +1,55 @@
-/**
-* @Author: Julien SOBRITZ
-* @Date:   2016-11-16T14:32:12+01:00
-* @Email:  julien.s@codeur.online
-* @Filename: style.css
-* @Last modified by:   Julien SOBRITZ
-* @Last modified time: 2016-11-16T14:50:48+01:00
-*/
+body {
+    background-image: url(../image/fond.png);
+    background-attachment: fixed;
+     }
 
+h1 {
+    color: white;
+    text-align: center;
+    font-family: courier;
+    text-shadow: 5px 1px 2px black, 0 0 99px green, 0 0 5px darkblue;
+}
 
+{
+    margin: 0;
+}
 
-nav li {
-  background-color: #b0b0df;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: sticky;
+    height: 200%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #30342F;
+    padding: 8px 16px;
+    text-decoration: inherit;
+}
+
+li a.active {
+    background-color: #58AB3A;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#table
+{
+ text-align: center;
+}
+
+#txt
+{
+  text-align: center;
+  color: #f9d6a4;
+  font-size: 1.2em;
 }
