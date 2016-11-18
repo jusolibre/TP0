@@ -1,14 +1,14 @@
 /**
 * @Author: Julien SOBRITZ
-* @Date:   2016-11-18T10:36:54+01:00
+* @Date:   2016-11-17T09:09:25+01:00
 * @Email:  julien.s@codeur.online
-* @Filename: style.css
+* @Filename: test.css
 * @Last modified by:   Julien SOBRITZ
-* @Last modified time: 2016-11-18T13:15:34+01:00
+* @Last modified time: 2016-11-18T10:46:10+01:00
 */
 
 body {
-    background-image: url(../image/background.jpg);
+    background-image: url(../image/fond.png);
     background-attachment: fixed;
     text-align: center;
     color: #f9d6a4;
@@ -17,26 +17,17 @@ body {
 
 h1, h2, h3 {
     color: white;
-    padding-top: 30px;
-    margin-bottom: -20px;
     text-align: center;
     font-family: courier;
     text-shadow: 5px 1px 2px black, 0 0 99px green, 0 0 5px darkblue;
-}
-
-p {
-  float:inherit;
-  position: relative;
-  padding-top: 30px;
-  margin-bottom: 20px;
 }
 
 {
     margin: 0;
 }
 
-ul[class="nav"] {
-    float: left;
+ul {
+  float: left;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,7 +39,7 @@ ul[class="nav"] {
 }
 
 li a {
-    float: left;
+  float: left;
     display: block;
     color: #30342F;
     padding: 8px 16px;
@@ -56,64 +47,40 @@ li a {
 }
 
 li a:hover:not(.active) {
-    float: left;
+  float: left;
     background-color: #555;
     color: white;
     width: 15%;
 }
 
 li a[href="#"] {
-    float: left;
+  float: left;
     background-color: #58AB3A;
-    width: 15%;
+    width: auto;
     color: white;
 }
 
-nav ul li[class="alone"] {
+nav ul li[id] {
   float: left;
     background-color: #78C555;
     color: white;
     width: 15%;
 }
 
-#table {
+#table
+{
  text-align: center;
 }
 
-#actu {
+#actu
+{
   text-align: center;
   color: #004d99;
   font-size: 1.2em;
 }
-footer {
-  background-image: url(../image/footerblack.png);
-}
-
-#vid {
-    color: black;
- }
-
-.exemple {
-   background-image: url(../image/background.jpg);
-   width: auto;
-   height: auto;
-}
-
-select[class="exemple"] {
-  background-color: white;
-}
-
-li[class="exemple"] {
-    list-style-type: none;
-}
-
-p[class="code"] {
-  text-align: left;
-  margin-left: 30%;
-}
-
-table[class="code"] {
-  margin-left: 50%;
+footer
+{
+  background-image: url(../image/footer.png);
 }
 
 #container {
@@ -131,6 +98,7 @@ table[class="code"] {
 }
 
 #nav li {
+   /*float: left;*/
    width: auto;
 }
 
@@ -146,15 +114,6 @@ table[class="code"] {
    left: auto;
 }
 
-li ul[class="nav"] {
-  float:left;
+li ul {
   display: none;
-}
-
-nav {
-  width: 79%;
-}
-
-a{
-  color:black;
 }

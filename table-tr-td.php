@@ -1,7 +1,18 @@
+<!--
+# @Author: Julien SOBRITZ
+# @Date:   2016-11-18T10:36:53+01:00
+# @Email:  julien.s@codeur.online
+# @Filename: table-tr-td.php
+# @Last modified by:   Julien SOBRITZ
+# @Last modified time: 2016-11-18T12:00:09+01:00
+-->
+
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
+    <?php include("menu.php"); ?>
     <link rel="stylesheet" href="style/style.css">
     <title>Table Tr Td</title>
   </head>
@@ -12,28 +23,6 @@
      Hi !  Bienvenue sur notre site ou vous trouverez differentes significations des balises les plus utilisées pour créer une page html.
      Pour les suggestions envoyer nous un message<br/>
     </p>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active" href="#home">INDEX</a></li>
-        <li><a href="input.html">Input</a></li>
-        <li><a href="text-area.html">Text area</a></li>
-        <li><a href="select.html">Select</a></li>
-        <li><a href="meta.html">Meta</a></li>
-        <li><a href="link.html">Link</a></li>
-        <li><a href="div.html">Div</a></li>
-        <li id="actu"><u>Table tr td</u></li>
-        <li><a href="img.html">Img</a></li>
-        <li><a href="a.html">a</a></li>
-        <li><a href="h123.html">h1 h2 h3 ...</a></li>
-        <li><a href="comment.html">comment</a></li>
-        <li><a href="form.html">form</a></li>
-        <li><a href="body.html">body</a></li>
-        <li><a href="html.html">html</a></li>
-        <li><a href="title.html">title</a></li>
-        <li><a href="b-i-u-pre.html">b i u pre</a></li>
-        <li><a href="p-ul-li-br-hr.html">p ul li br hr</a></li>
-      </ul>
-    </nav>
     <h1>TABLE TR TD:</h1><br/>
     <p>
       L'ensemble de balise &lt;table&gt;, &lt;tr&gt; et &lt;td&gt; sont trois balise qui permettent de creer des tableau tels que celui-ci:

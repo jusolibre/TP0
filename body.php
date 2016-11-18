@@ -1,7 +1,19 @@
+<!--
+@Author: Julien SOBRITZ
+@Date:   2016-11-18T10:36:53+01:00
+@Email:  julien.s@codeur.online
+@Filename: body.html
+# @Last modified by:   Julien SOBRITZ
+# @Last modified time: 2016-11-18T11:14:41+01:00
+-->
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
+    <?php include("menu.php"); ?>
     <link rel="stylesheet" href="style/style.css">
     <title>Body</title>
   </head>
@@ -12,28 +24,6 @@
      Hi !  Bienvenue sur notre site ou vous trouverez differentes significations des balises les plus utilisées pour créer une page html.
      Pour les suggestions envoyer nous un message<br/>
     </p>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active" href="#home">INDEX</a></li>
-        <li><a href="input.html">Input</a></li>
-        <li><a href="text-area.html">Text area</a></li>
-        <li><a href="select.html">Select</a></li>
-        <li><a href="meta.html">Meta</a></li>
-        <li><a href="link.html">Link</a></li>
-        <li><a href="div.html">Div</a></li>
-        <li><a href="table-tr-td.html">Table tr td</a></li>
-        <li><a href="img.html">Img</a></li>
-        <li><a href="a.html">a</a></li>
-        <li><a href="h123.html">h1 h2 h3 ...</a></li>
-        <li><a href="comment.html">comment</a></li>
-        <li><a href="form.html">form</a></li>
-        <li id="actu"><u>body</u></li>
-        <li><a href="html.html">html</a></li>
-        <li><a href="title.html">title</a></li>
-        <li><a href="b-i-u-pre.html">b i u pre</a></li>
-        <li><a href="p-ul-li-br-hr.html">p ul li br hr</a></li>
-      </ul>
-    </nav>
     <h1>BODY :</h1><br/>
     <p>
       Définition : C'est une balise qu'il ne faut pas oublier.<br/>

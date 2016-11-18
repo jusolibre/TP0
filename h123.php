@@ -1,9 +1,21 @@
+<!--
+@Author: Julien SOBRITZ <sobrit_j>
+@Date:   2016-11-14T19:58:59+01:00
+@Email:  julien.s@codeur.online
+@Filename: h123.html
+# @Last modified by:   Julien SOBRITZ
+# @Last modified time: 2016-11-18T11:15:50+01:00
+-->
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
+    <?php include("menu.php"); ?>
     <link rel="stylesheet" href="style/style.css">
-    <title>Title</title>
+    <title>h1 h2 h3 h4 h5 h6</title>
   </head>
 
   <body>
@@ -12,31 +24,27 @@
      Hi !  Bienvenue sur notre site ou vous trouverez differentes significations des balises les plus utilisées pour créer une page html.
      Pour les suggestions envoyer nous un message<br/>
     </p>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active" href="#home">INDEX</a></li>
-        <li><a href="input.html">Input</a></li>
-        <li><a href="text-area.html">Text area</a></li>
-        <li><a href="select.html">Select</a></li>
-        <li><a href="meta.html">Meta</a></li>
-        <li><a href="link.html">Link</a></li>
-        <li><a href="div.html">Div</a></li>
-        <li><a href="table-tr-td.html">Table tr td</a></li>
-        <li><a href="img.html">Img</a></li>
-        <li><a href="a.html">a</a></li>
-        <li><a href="h123.html">h1 h2 h3 ...</a></li>
-        <li><a href="comment.html">comment</a></li>
-        <li><a href="form.html">form</a></li>
-        <li><a href="body.html">body</a></li>
-        <li><a href="html.html">html</a></li>
-        <li id="actu"><u>title</u></li>
-        <li><a href="b-i-u-pre.html">b i u pre</a></li>
-        <li><a href="p-ul-li-br-hr.html">p ul li br hr</a></li>
-      </ul>
-    </nav>
-    <h1>TITLE :</h1><br/>
+    <h1>H1 H2 H3 ... :</h1>
     <p>
-      Définition : balise utilisée pour changer le titre de l'onglet de la page actuel,comme vous pouvez le voir directement en haut a gauche de votre écran.
+      Définition : Les balises h1, h2, h3 ... sont composé d'une balise ouvrante :<br/>
+      <code data-claire-semantic="html">
+        &lt;hx&gt;<br/>
+        ainsi que d'une balise fermante:<br/>
+        &lt;/hx&gt;
+      </code>
+    </p><br/>
+    <h2>Exemples :</h2>
+    <strong>
+      <code data-claire-semantic="html">&lt;h1&gt;Mon Titre&lt;/h1&gt;</code><br/>
+    </strong>
+    <p>
+      voici quelque exemples:
+      <h1>exemple avec balise h1</h1>
+      <h2>exemple avec balise h2</h2>
+      <h3>exemple avec balise h3</h3>
+    </p>
+    <p>
+      vous pouvez creer des titre clicable amenant a d'autre pages ane utilisant la <a href="balise lien.html">balise lien</a>.
     </p>
   </body>
 
