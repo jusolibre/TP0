@@ -4,7 +4,7 @@
 @Email:  julien.s@codeur.online
 @Filename: test.php
 # @Last modified by:   Julien SOBRITZ
-# @Last modified time: 2016-11-18T13:01:04+01:00
+# @Last modified time: 2016-11-18T15:55:02+01:00
 -->
 
 
@@ -18,7 +18,6 @@
   </head>
 
   <body>
-    <div id="container">
       <nav>
    <ul id="nav" class="nav">
       <li id="t0"><a href="#" onclick="move(1, 4)">a</a>
@@ -112,6 +111,5 @@
       </li>
    </ul>
  </nav>
-</div>
 </body>
 </html>

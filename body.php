@@ -4,7 +4,7 @@
 @Email:  julien.s@codeur.online
 @Filename: body.html
 # @Last modified by:   Julien SOBRITZ
-# @Last modified time: 2016-11-18T11:14:41+01:00
+# @Last modified time: 2016-11-18T15:32:25+01:00
 -->
 
 
@@ -48,12 +48,5 @@
       </p>
   </body>
 
-    <footer>
-      <br/><br/>
-      <a href="Contact\perso-vincentimes.html">Contact VincenTimes</a><br/>
-      <a href="Contact\julien\index.html">Contact Julien GRIMM</a><br/>
-      <a href="Contact\danti-kevin.html">Contact Kevin DANTI</a><br/>
-      <a href="Contact\thomas-martin.html">Contact Thomas MARTIN</a><br/>
-    </footer>
+    <?php include("footer.php"); ?>
 </html>
-Contact\
