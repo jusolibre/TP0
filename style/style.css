@@ -4,86 +4,100 @@
 * @Email:  julien.s@codeur.online
 * @Filename: style.css
 * @Last modified by:   Julien SOBRITZ
-* @Last modified time: 2016-11-18T16:00:42+01:00
+* @Last modified time: 2016-11-18T23:05:15+01:00
 */
 
 body {
-    background-image: url(../image/background.jpg);
-    background-attachment: fixed;
-    text-align: center;
-    color: #f9d6a4;
-    font-size: 1.2em;
+  background-image: url(../image/background.jpg);
+  background-attachment: fixed;
+  text-align: center;
+  align-content: center;
+  color: #f9d6a4;
+  font-size: 1.2em;
 }
 
-div {
+div[id="test"] {
+  margin-left: 17%;
 }
 
 h1, h2, h3 {
+  color: white;
+  padding-top: 30px;
+  margin-bottom: -20px;
   margin-left: 17%;
-    color: white;
-    padding-top: 30px;
-    margin-bottom: -20px;
-    text-align: center;
-    font-family: courier;
-    text-shadow: 5px 1px 2px black, 0 0 99px green, 0 0 5px darkblue;
+  text-align: center;
+  font-family: courier;
+  text-shadow: 5px 1px 2px black, 0 0 99px green, 0 0 5px darkblue;
+  z-index: -1;
 }
 
 p {
-  margin-left: 17%;
+  z-index: -1;
+  text-align: center;
   padding-top: 30px;
+  margin-left: 17%;
   margin-bottom: 20px;
+  width: auto;
+  height: auto;
 }
 
-{
-    margin: 0;
+pre {
+  z-index: -1
+  border: 10px solid white;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 17%;
+  margin-bottom: 20px;
+  width: auto;
+  height: auto;
 }
 
 ul[class="nav"] {
-    float: left;
-    text-align: left;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    background-color: #f1f1f1;
-    position: sticky;
-    height: 200%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    overflow: hidden;
+  float: left;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:  15%;
+  background-color: #f1f1f1;
+  position: sticky;
+  height: 200%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow: hidden;
 }
 
 li a {
-    float: left;
-    display: block;
-    color: #30342F;
-    padding: 8px 16px;
-    text-decoration: inherit;
+  float: left;
+  display: block;
+  color: #30342F;
+  padding: 8px 16px;
+  text-decoration: inherit;
 }
 
 li a:hover:not(.active) {
-    float: left;
-    background-color: #555;
-    color: white;
-    width: 15%;
+  float: left;
+  background-color: #555;
+  color: white;
+  width: 15%;
 }
 
 li a[href="#"] {
-    float: left;
-    background-color: #58AB3A;
-    width: 15%;
-    color: white;
+  float: left;
+  background-color: #58AB3A;
+  width: 15%;
+  color: white;
 }
 
 nav ul li[class="alone"] {
   float: left;
-    background-color: #78C555;
-    color: white;
-    width: 15%;
+  background-color: #78C555;
+  color: white;
+  width: 15%;
 }
 
 #table {
- text-align: center;
+  text-align: center;
 }
 
 #actu {
@@ -92,25 +106,39 @@ nav ul li[class="alone"] {
   font-size: 1.2em;
 }
 footer {
+  bottom: 0;
+  margin-top: 100;
+  width: 100%;
+  right: 0;
+  clear: both;
+  z-index: -1;
   background-image: url(../image/footerblack.png);
 }
 
 #vid {
-    color: black;
- }
+  color: black;
+}
 
 .exemple {
-   background-image: url(../image/background.jpg);
-   width: auto;
-   height: auto;
+  background-image: url(../image/background.jpg);
+  width: auto;
+  height: auto;
 }
 
 select[class="exemple"] {
   background-color: white;
 }
 
+ul[class="exemple"] {
+  margin-left: 17%;
+  text-align: center;
+}
+
 li[class="exemple"] {
-    list-style-type: none;
+  margin-left: 17%;
+  color: white;
+  text-align: center;
+  list-style-type: none;
 }
 
 p[class="code"] {
@@ -118,49 +146,60 @@ p[class="code"] {
   margin-left: 30%;
 }
 
-table[class="code"] {
+table[class="exemple"] {
+  margin-left: 17%;
+  color: white;
   margin-left: 50%;
 }
 
-#container {
-}
-
 #nav, #nav ul {
-   padding: 0;
-   margin: 0;
-   list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: none;
 }
 
 #nav a {
-   display: block;
-   width: 10em;
+  display: block;
+  width: 100%;
 }
 
 #nav li {
-   width: auto;
+  width: 100%;
 }
 
 #nav li ul {
-  width: auto;
+  width: 100%;
 }
 
 #nav li:hover ul {
-   left: auto;
+  left: 0;
 }
 
 #nav li:hover ul, #nav li.sfhover ul {
-   left: auto;
+  left: 0;
 }
 
-li ul[class="nav"] {
+li ul[class="nav2"] {
   float:left;
   display: none;
 }
 
 nav {
-  width: 79%;
+  width: 10%;
 }
 
 a{
   color:black;
+}
+
+a[class="exemple"] {
+  color: white;
+}
+
+li[id="t-1"] {
+  float: left;
+  background-color: #555;
+  color: white;
+  width: 15%;
 }

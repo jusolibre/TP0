@@ -4,7 +4,7 @@
 # @Email:  julien.s@codeur.online
 # @Filename: input.php
 # @Last modified by:   Julien SOBRITZ
-# @Last modified time: 2016-11-18T15:47:44+01:00
+# @Last modified time: 2016-11-18T22:52:34+01:00
 -->
 
 
@@ -28,7 +28,7 @@
       pratiquement indispensable, la balise input permet d'interagir avec le serveur. <br/>
       grace a cette balise, vous pouvez creer des boutons, des cases a cocher , des cases d'identifiant.
     </p>
-    pour utiliser une balise input, vous devrez faire comme suivant: <strong> &lt; input type="button" name="name" value="&gt; </strong> <br/>
+    <p>pour utiliser une balise input, vous devrez faire comme suivant: <strong> &lt; input type="button" name="name" value="&gt; </strong></p>
     <p>
       voici un exemple:<br/>
       <a href="index.html"><input type="button" value="accueil" /></a>

@@ -4,7 +4,7 @@
 # @Email:  julien.s@codeur.online
 # @Filename: meta.php
 # @Last modified by:   Julien SOBRITZ
-# @Last modified time: 2016-11-18T15:48:00+01:00
+# @Last modified time: 2016-11-18T22:54:10+01:00
 -->
 
 
@@ -46,7 +46,7 @@
       <p>Faire en sorte que la page soit actualiser toutes les 20 secondes : < meta http-esquiv =="refresh" content="20"></p>
       <p>Définir l'auteur du fichier : < meta name="author" content="Romain Mustang"> </p>
       <h2>Ressources complémentaires</h2>
-      <a href="http://www.w3schools.com/tags/tag_meta.asp">www.w3schools.com/tags/tag_meta.asp</a>
+      <p><a href="http://www.w3schools.com/tags/tag_meta.asp">www.w3schools.com/tags/tag_meta.asp</a></p>
     </section>
   </body>
 

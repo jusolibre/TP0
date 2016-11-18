@@ -4,7 +4,7 @@
 @Email:  julien.s@codeur.online
 @Filename: h123.html
 # @Last modified by:   Julien SOBRITZ
-# @Last modified time: 2016-11-18T15:47:08+01:00
+# @Last modified time: 2016-11-18T22:50:48+01:00
 -->
 
 
@@ -34,9 +34,9 @@
       </code>
     </p><br/>
     <h2>Exemples :</h2>
-    <strong>
+    <p>
       <code data-claire-semantic="html">&lt;h1&gt;Mon Titre&lt;/h1&gt;</code><br/>
-    </strong>
+    </p>
     <p>
       voici quelque exemples:
       <h1>exemple avec balise h1</h1>
@@ -44,7 +44,7 @@
       <h3>exemple avec balise h3</h3>
     </p>
     <p>
-      vous pouvez creer des titre clicable amenant a d'autre pages ane utilisant la <a href="balise lien.html">balise lien</a>.
+      vous pouvez creer des titre clicable amenant a d'autre pages ane utilisant la <a class="exemple" href="balise lien.html">balise lien</a>.
     </p>
   </body>
 

@@ -4,7 +4,7 @@
 # @Email:  julien.s@codeur.online
 # @Filename: link.php
 # @Last modified by:   Julien SOBRITZ
-# @Last modified time: 2016-11-18T15:47:50+01:00
+# @Last modified time: 2016-11-18T22:53:29+01:00
 -->
 
 
@@ -32,7 +32,7 @@
       La balise HTML et XHTML LINK ne peut être mise que dans la balise HTML &lt;HEAD>&lt;/HEAD> du document HTML.<br/>
       Elle n'est donc pas visible comme par exemple la balise META.
     </p>
-    exemple de balise de lien : &lt; a href="lien de la page"&lg;texte a cliquer&lt;/a&lg;
+    <p>exemple de balise de lien : &lt; a href="lien de la page"&gt;texte a cliquer&lt;/a&gt;</p>
     <p>
      elle peut etre utilisé avec une image comme indiqué <a href="img.html">ici</a><br/>
      ou bien core sure des titres comme indiqué sur cette page.

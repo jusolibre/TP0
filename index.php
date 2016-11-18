@@ -4,7 +4,7 @@
 # @Email:  julien.s@codeur.online
 # @Filename: index.php
 # @Last modified by:   Julien SOBRITZ
-# @Last modified time: 2016-11-18T15:47:37+01:00
+# @Last modified time: 2016-11-18T23:01:24+01:00
 -->
 
 
@@ -24,7 +24,7 @@
      Pour les suggestions envoyer nous un message<br/>
     </p>
         <section="article">
-        Pour des suggestions envoyer nous un message </section>
+        <p>Pour des suggestions envoyer nous un message </section></p>
 
            <p id="table">
 

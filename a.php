@@ -4,7 +4,7 @@
 @Email:  julien.s@codeur.online
 @Filename: a.html
 # @Last modified by:   Julien SOBRITZ
-# @Last modified time: 2016-11-18T15:30:31+01:00
+# @Last modified time: 2016-11-18T16:44:02+01:00
 -->
 
 
@@ -13,13 +13,14 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
-    <?php include("menu.php"); ?>
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="style/style.css">
     <title>a</title>
   </head>
 
   <body>
+  <?php include("menu.php"); ?>
+    <div id="test">
     <h1>les balises html basique</h1>
     <p id="txt">
      Hi !  Bienvenue sur notre site ou vous trouverez differentes significations des balises les plus utilisées pour créer une page html.
@@ -59,6 +60,7 @@
       <code data-claire-semantic="html">&lt;a href="#tips"&gt; Texte De Lien &lt;/a&gt;</code><br/>
       Un clic nous mènera directement au titre.<br/><br/>
       De la meme manière on peut rediriger vers une id d'une autre page en combinant les deux derniers exemples.
+    </div>
   </body>
 
   <?php include("footer.php"); ?>

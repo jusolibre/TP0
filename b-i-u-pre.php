@@ -4,7 +4,7 @@
 # @Email:  julien.s@codeur.online
 # @Filename: b-i-u-pre.php
 # @Last modified by:   Julien SOBRITZ
-# @Last modified time: 2016-11-18T15:32:15+01:00
+# @Last modified time: 2016-11-18T22:42:26+01:00
 -->
 
 
@@ -21,7 +21,7 @@
     <h1>les balises html basique</h1>
     <p id="txt">
      Hi !  Bienvenue sur notre site ou vous trouverez differentes significations des balises les plus utilisées pour créer une page html.
-     Pour les suggestions envoyer nous un message<br/>
+     Pour les suggestions envoyer nous un message.
     </p>
     <h1>B :</h1>
     <p>
@@ -35,10 +35,13 @@
     <p>
       Définition : balise utilisée pour <u>souligner un texte.</u>
     </p>
-    <h1>PRE :</h1><br/>
+    <h1>PRE :</h1>
+    <p>la balise pre permet d'utiliser un formatage speciale</p>
+      <pre>tel que   celui-ci</pre>
     <p>
-      la balise pre permet d'utiliser un formatage speciale <pre>tel que   celui-ci</pre> comme on peut le voir il ajoute automatiquement un saut de ligne avec et apres, il annule aussi le pre-parsing du html ce qui permet de placer plusieurs espaces de suite.
-    </p><br/>
+      comme on peut le voir il ajoute automatiquement un saut de ligne avec et apres,
+      il annule aussi le pre-parsing du html ce qui permet de placer plusieurs espaces de suite.
+    </p>
   </body>
 
     <?php include("footer.php"); ?>

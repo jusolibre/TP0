@@ -4,7 +4,7 @@
 # @Email:  julien.s@codeur.online
 # @Filename: text-area.php
 # @Last modified by:   Julien SOBRITZ
-# @Last modified time: 2016-11-18T15:48:33+01:00
+# @Last modified time: 2016-11-18T22:57:41+01:00
 -->
 
 
@@ -28,7 +28,7 @@
     <p> L'élement HTML textarea aussi zone de texte en français représente un champ de saisie à plusieurs lignes, permettant l'édition d'un texte simple.</p>
     <p> Il est équipé généralement de barre de défilement lorsque la zone de texte ne peut pas être affiché totalement .</p>
     <p> Certaines d'entre elles, utilisées conjointement avec d'autres widgets, permettent même de mettre en forme le texte saisi, c’est à dire de le souligner, le mettre en gras, etc.</p>
-    <em>La balise HTML et XHTML TEXTAREA n'est pas reconnue par Netscape si elle n'est pas dans la balise &lt;FORM>.</em>
+    <p><em>La balise HTML et XHTML TEXTAREA n'est pas reconnue par Netscape si elle n'est pas dans la balise &lt;FORM>.</em><p>
   </body>
 
 
