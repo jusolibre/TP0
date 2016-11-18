@@ -1,14 +1,3 @@
-<!--
-@Author: Julien SOBRITZ <sobrit_j>
-@Date:   2016-11-14T19:58:16+01:00
-@Email:  julien.s@codeur.online
-@Filename: select.html
-@Last modified by:   sobrit_j
-@Last modified time: 2016-11-15T14:11:33+01:00
--->
-
-
-
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -18,8 +7,14 @@
   </head>
 
   <body>
+    <h1>les balises html basique</h1>
+    <p id="txt">
+     Hi !  Bienvenue sur notre site ou vous trouverez differentes significations des balises les plus utilisées pour créer une page html.
+     Pour les suggestions envoyer nous un message<br/>
+    </p>
     <nav>
       <ul>
+        <li><a href="index.html" class="active" href="#home">INDEX</a></li>
         <li><a href="input.html">Input</a></li>
         <li><a href="text-area.html">Text area</a></li>
         <li id="actu"><u>Select</u></li>
@@ -43,7 +38,7 @@
 
     le balise select est utilisé pour l'ajout d'une liste avec la possibilité de choisir une option dans celle ci. <br/>
     <p>  voici un exmple d'utilisation:</p>
-    <select size="6" >
+    <select>
       <optgroup label="groupe1">
         <option>Alpha</option>
         <option>Beta</option>
@@ -53,8 +48,8 @@
         <option>Deux</option>
       </optgroup>
     </select>
-    <p>voici le code utilisé pour cette liste:<br/>
-      <strong>  &lt;select size="6" &gt; <br/>
+    <p class="code">voici le code utilisé pour cette liste:<br/>
+      <strong>  &lt;select &gt; <br/>
         &lt;optgroup label="groupe1"&gt; <br/>
         &lt;option&gt;Alpha&lt;/option&gt; <br/>
         &lt;option&gt;Beta&lt;/option&gt; <br/>

@@ -1,14 +1,3 @@
-<!--
-@Author: Julien SOBRITZ <sobrit_j>
-@Date:   2016-11-14T19:58:42+01:00
-@Email:  julien.s@codeur.online
-@Filename: table-tr-td.html
-@Last modified by:   sobrit_j
-@Last modified time: 2016-11-15T14:12:07+01:00
--->
-
-
-
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -18,8 +7,14 @@
   </head>
 
   <body>
+    <h1>les balises html basique</h1>
+    <p id="txt">
+     Hi !  Bienvenue sur notre site ou vous trouverez differentes significations des balises les plus utilisées pour créer une page html.
+     Pour les suggestions envoyer nous un message<br/>
+    </p>
     <nav>
       <ul>
+        <li><a href="index.html" class="active" href="#home">INDEX</a></li>
         <li><a href="input.html">Input</a></li>
         <li><a href="text-area.html">Text area</a></li>
         <li><a href="select.html">Select</a></li>
@@ -43,21 +38,22 @@
     <p>
       L'ensemble de balise &lt;table&gt;, &lt;tr&gt; et &lt;td&gt; sont trois balise qui permettent de creer des tableau tels que celui-ci:
     </p>
-    <table border="1">
-      <tr>
+    <table border="1" class="exemple">
+      <tr class="exemple">
         <caption>Membres de l'Access Code School : </caption>
         <td>Vincent (tr1 td1)</td>
         <td>20ans (tr1 td2)</td>
         <td>Vesoul (tr1 td3)</td>
       </tr>
-      <tr>
+      <tr class="exemple">
         <td>Kevin (tr2 td1)</td>
         <td>28 ans (tr2 td2)</td>
         <td>Montbeliard (tr2 td3)</td>
       </tr>
     </table>
 
-    ce qui correspond à ce code:
+    <p class="code">
+      ce qui correspond à ce code:
     &lt;table border="1"&gt;<br/>
       &lt;tr&gt;<br/>
         &lt;caption&gt;Membres de l'Access Code School : &lt;/caption&gt;<br/>
@@ -71,6 +67,7 @@
         &lt;td&gt;Montbeliard (tr2 td3)&lt;/td&gt;<br/>
       &lt;/tr&gt;<br/>
     &lt;/table&gt;<br/>
+  </p>
     </body>
 
     <footer>

@@ -1,5 +1,5 @@
 body {
-    background-image: url(../image/fond.png);
+    background-image: url(../image/background.jpg);
     background-attachment: fixed;
     text-align: center;
     color: #f9d6a4;
@@ -45,18 +45,37 @@ li a:hover:not(.active) {
     color: white;
 }
 
-#table
-{
+#table {
  text-align: center;
 }
 
-#actu
-{
+#actu {
   text-align: center;
   color: #004d99;
   font-size: 1.2em;
 }
-footer
-{
-  background-image: url(../image/footer.png);
+footer {
+  background-image: url(../image/footer.jpg);
+}
+
+#vid {
+    color: black;
+ }
+
+ .exemple {
+   background-image: url(../image/background.jpg);
+   width: auto;
+   height: auto;
+ }
+select[class="exemple"] {
+  background-color: white;
+}
+
+p[class="code"] {
+  text-align: left;
+  margin-left: 30%;
+}
+
+table[class="code"] {
+  margin-left: 50%;
 }
